@@ -1,0 +1,34 @@
+Ecartfrontend
+
+
+              1 Create a folder Ecart
+              2 Inside in it create angular application - ng new e-cart-frontend
+              3 cd e-cart-frontend
+              4 code .
+              5 run angular application - ng s --o
+              6 clear code in app.component.html
+              7 import 3rd party libraries
+                       ->bootstrap
+                       -> font=awesome
+                       ->google fonts(style.css)
+              8 LAZZY LOADING
+                -Lazzy loading helps keep initial bundle sizes smaller,which is turn helps decrease load times.
+
+
+                we have one module in our application - app.module
+                here we create another module -
+                    ng g m products --route products --module app.module
+
+              9 component generation
+                  ->ng g c products/allProducts
+                  -> ng g c products/viewProduct
+                  -ng g c Products/wishlist
+                 ->ng g c products/cart
+                 Not in lazzy loading
+                  -> ng g c header
+                  -> ng g c footer
+                  -> ng g c pageNotFound
+
+             10 setup path
+
+               -> put <router-outlet></router-outlet>

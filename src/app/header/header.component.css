@@ -1,0 +1,8 @@
+.navbar{
+  position: sticky;
+  top:0px;
+  z-index: 1;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+}
